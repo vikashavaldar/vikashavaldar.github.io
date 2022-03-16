@@ -657,6 +657,25 @@ section {
 #portfolio .portfolio-item {
   margin: 0px 30px 30px 30px; 
 }
+
+@media only screen and (min-width: 992px) {
+  #portfolio .portfolio-item {
+    margin: 0px 30px 30px 150px; 
+  }
+}
+
+@media only screen and (min-width: 650px) and (max-width: 750px){
+  #portfolio .portfolio-item {
+    margin: 0px 30px 30px 100px; 
+  }
+}
+
+@media only screen and (min-width: 750px) and (max-width: 992px){
+  #portfolio .portfolio-item {
+    margin: 0px 30px 30px 200px; 
+  }
+}
+
 #portfolio .portfolio-item .portfolio-info {
   opacity: 0;
   position: relative;
@@ -698,9 +717,6 @@ section {
   bottom: 20px;
 }
 
- .portfolio-container{
-  padding-left: 165px;
-} 
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
